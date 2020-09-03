@@ -11,12 +11,6 @@
 import numpy as np
 
 
-# ! /usr/bin/python
-# -*- coding: utf8 -*-
-# @Time    : 2018/12/6 9:48
-# @Author  : yukang
-
-
 # 计算欧几里德距离：
 def euclidean(p, q):
     # 如果两数据集数目不同，计算两者之间都对应有的数
@@ -68,15 +62,6 @@ def manhattan(p, q):
     vals = range(n)
     distance = sum(abs(p[i] - q[i]) for i in vals)
     return distance
-
-
-# ! /usr/bin/python
-# -*- coding: utf8 -*-
-# @Time    : 2018/12/6 9:48
-# @Author  : yukang
-
-
-import jieba
 
 
 # 计算jaccard系数

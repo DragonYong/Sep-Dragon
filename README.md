@@ -16,3 +16,5 @@ pip install  -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade  -r requireme
 [李航统计学-Boost](https://github.com/DragonYong/Sep-Dragon/blob/master/Boost/boost.py)
 
 [李航统计学-贝叶斯](https://github.com/DragonYong/Sep-Dragon/blob/master/NaiveBayes/naive_bayes.py)
+
+[李航统计学-CRF](https://github.com/DragonYong/Sep-Dragon/blob/master/CRF/crf.py)

@@ -9,7 +9,8 @@ pip install  -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade  -r requireme
 
 [文本相似度计算的那些事](https://github.com/DragonYong/Sep-Dragon/blob/master/文本相似度计算的那些事.py)
 
-[李航统计学第5章-决策树-习题5.1](https://github.com/DragonYong/Sep-Dragon/blob/master/DecisionTree/exercise5.1.py)
+[李航统计学-决策树](https://github.com/DragonYong/Sep-Dragon/blob/master/DecisionTree/decision_tree.py)
 
+[李航统计学-逻辑回归](https://github.com/DragonYong/Sep-Dragon/blob/master/LogisticRegression/logistic_regression.py)
 
-
+[李航统计学-Boost](https://github.com/DragonYong/Sep-Dragon/blob/master/Boost/boost.py)

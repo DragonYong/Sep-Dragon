@@ -45,8 +45,8 @@ def calc_ent(datasets):
             label_count[label] = 0
         label_count[label] += 1
     ent = -sum([(p / data_length) * log(p / data_length, 2)
-                for p in label_count.values()])
-    return ent
+                for p in label_count.values()])  # 计算每一列信息熵 -p*log_2^P
+    return ent  # 返回每一列信息熵的一个列表
 
 
 # def entropy(y):
@@ -66,9 +66,9 @@ def cond_ent(datasets, axis=0):
         feature = datasets[i][axis]
         if feature not in feature_sets:
             feature_sets[feature] = []
-        feature_sets[feature].append(datasets[i])
+        feature_sets[feature].append(datasets[i])  # 统计当前列的所有特征，是去重复的，相当于key-value反转，的数据，当前列的特征含有的所有每行数据列表
     cond_ent = sum(
-        [(len(p) / data_length) * calc_ent(p) for p in feature_sets.values()])
+        [(len(p) / data_length) * calc_ent(p) for p in feature_sets.values()]) # 分别对每一列共同信息求解信息熵，在累加
     return cond_ent
 
 
@@ -228,12 +228,11 @@ if __name__ == '__main__':
     res = info_gain_train(np.array(datasets))
     print(res)
 
-
     data_df = pd.DataFrame(datasets, columns=labels)
     dt = DTree()
     tree = dt.fit(data_df)
 
-    print(tree,type(tree))
+    print(tree, type(tree))
 
     res = dt.predict(['老年', '否', '否', '一般'])
     print(res)

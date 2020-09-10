@@ -18,3 +18,8 @@ pip install  -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade  -r requireme
 [李航统计学-贝叶斯](https://github.com/DragonYong/Sep-Dragon/blob/master/NaiveBayes/naive_bayes.py)
 
 [李航统计学-CRF](https://github.com/DragonYong/Sep-Dragon/blob/master/CRF/crf.py)
+
+---
+[基础算法-单链表-增-删-改查-反转](https://github.com/DragonYong/Sep-Dragon/blob/master/Algorithm/link_list.py)
+
+[基础算法-二叉树-前中后<递归>-层-深度-叶节点](https://github.com/DragonYong/Sep-Dragon/blob/master/Algorithm/tree_recursion.py)

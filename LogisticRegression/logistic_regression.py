@@ -11,7 +11,7 @@ import numpy as np
 from pylab import mpl
 
 # 图像显示中文
-# mpl.rcParams['font.sans-serif'] = ['Microsoft YaHei']
+mpl.rcParams['font.sans-serif'] = ['Microsoft YaHei']
 
 
 class LogisticRegression:

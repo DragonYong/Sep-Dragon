@@ -48,7 +48,7 @@ class AdaBoost:
                     predict_vals = self.base_estimator(self.X, i, thresh_val,
                                                        inequal)
                     err_arr = np.array(np.ones(m))
-                    err_arr[predict_vals.T == self.y.T] = 0
+                    err_arr[predict_vals.T == self.y.T] = 0 # 预测正确的设置为0，这里是针对分错的加权重
                     weighted_error = np.dot(self.w, err_arr)
                     if weighted_error < e_min:
                         e_min = weighted_error

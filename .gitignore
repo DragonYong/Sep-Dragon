@@ -2,3 +2,4 @@
 .idea/
 /DecisionTree/mytree.pdf
 /CRF/traindata.txt
+.DS_Store

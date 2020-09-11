@@ -19,6 +19,10 @@ pip install  -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade  -r requireme
 
 [李航统计学-CRF](https://github.com/DragonYong/Sep-Dragon/blob/master/CRF/crf.py)
 
+[李航统计学-Perceptron](https://github.com/DragonYong/Sep-Dragon/blob/master/Perceptron/perceptron.py)
+
+[李航统计学-EM](https://github.com/DragonYong/Sep-Dragon/blob/master/EM/em.py)
+
 ---
 [基础算法-单链表-增-删-改查-反转](https://github.com/DragonYong/Sep-Dragon/blob/master/Algorithm/link_list.py)
 
